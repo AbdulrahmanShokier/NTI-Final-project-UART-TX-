@@ -92,17 +92,18 @@ The UART transmitter uses **five states**:
 ---
 
 ## 📂 File Structure
-uart_tx/
-│── rtl/
-│ ├── uart_tx.v # Top-level UART TX module
-│ ├── fsm_controller.v # FSM for state control
-│ ├── serializer.v # Parallel-to-serial converter
-│ ├── parity_calc.v # Parity bit generator
-│ ├── mux_4to1.v # Output MUX
-│── tb/
-│ ├── tb_uart_tx.v # Testbench
+```
+NTI-Final-project-UART-TX-/
+│── final project/
+│ ├── uart_tx.v # UART_TX.v
+│ ├── fsm_controller.v # FSM_controller.v
+│ ├── serializer.v # PISO.v
+│ ├── parity_calc.v # Parity_calculator.v
+│ ├── mux_4to1.v # mux.v
+│── final project/
+│ ├── tb_uart_tx.v #  TB_UART_TX.v
 │── README.md
-
+```
 
 ---
 
